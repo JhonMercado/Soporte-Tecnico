@@ -15,20 +15,28 @@ header figure img {
 	padding: 50px 40px;
 
 }
+#usuario{
+	margin-bottom: 0;
+}
+#clave{
+	margin-top: -1;
+}
 form input{
 	font-size: 16px;
 	width: 100%;
 	display: block;
 	margin:auto;
 	height: 44px;
-	margin-bottom: 0;
+	border: 1px solid #d9d9d9;
+	
 }
 
 #confirmar {
 	display: block;
 	margin:auto;
 	margin-top: 1em;
-	background-color: #3078ed;
+	background-color: #4d90fe;
+	border: 1px solid #3078ed;
 	color: white;
 	font-size: 16px; 	
 }
