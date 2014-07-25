@@ -7,3 +7,33 @@ header figure img {
 	  display: block;
 	  margin: auto;
 	}
+#formulario {
+	display: block;
+	margin: auto;
+	width: 20%;
+	background: #f7f7f7;
+	padding: 50px 40px;
+
+}
+form input{
+	font-size: 16px;
+	width: 100%;
+	display: block;
+	margin:auto;
+	height: 44px;
+	margin-bottom: 0;
+}
+
+#confirmar {
+	display: block;
+	margin:auto;
+	margin-top: 1em;
+	background-color: #3078ed;
+	color: white;
+	font-size: 16px; 	
+}
+#recuperar_clave {
+    display: block;
+    text-align: center;
+    color: blue;
+    }
