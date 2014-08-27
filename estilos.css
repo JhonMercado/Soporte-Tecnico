@@ -4,8 +4,13 @@ body{
 
 }
 header figure img {
-	  display: block;
-	  margin: auto;
+      
+	  margin-left: 1em;
+	}
+	form img {
+		width: 100%;
+		
+		margin-bottom: 1em;
 	}
 #formulario {
 	display: block;
@@ -16,32 +21,34 @@ header figure img {
 
 }
 #usuario{
-	margin-bottom: 0;
+	margin-bottom: 0.25
+	em;
 }
 #clave{
-	margin-top: -1;
+	margin-top: 0.5em;
 }
 form input{
 	font-size: 16px;
 	width: 100%;
-	display: block;
-	margin:auto;
-	height: 44px;
+	/*display: block;*/
+	/*margin:auto;*/
+	height: 34px;
 	border: 1px solid #d9d9d9;
 	
 }
 
 #confirmar {
-	display: block;
-	margin:auto;
-	margin-top: 1em;
+	/*display: block;*/
+	/*margin:auto;*/
+	margin-top: 0.5em;
 	background-color: #4d90fe;
 	border: 1px solid #3078ed;
 	color: white;
 	font-size: 16px; 	
 }
-#recuperar_clave {
-    display: block;
-    text-align: center;
+form a  {
+	margin-top: 1em;
+    font-size: 16px;
+    /*display: block;*/
     color: blue;
     }
